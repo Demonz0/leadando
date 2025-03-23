@@ -1,0 +1,83 @@
+/*Takács Imre*/
+h2
+{
+    text-align: center;
+}
+
+body
+{
+    background-color: #B17457;
+    padding: 0;
+}
+nav
+{
+    border-radius: 20px;
+    width: 98%;
+    min-width: 100px;
+    height: auto;
+    float: left;
+    margin: 0 30px 30px 30px;
+    background-color: #D8D2C2;
+    padding-bottom: 1%; 
+
+
+}
+#menu li
+{
+    list-style-type: none;
+    float: left;
+    height: auto;
+}
+#menu ul li a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+    background-color: #4A4947;
+    width: 100px;
+    border-radius: 20px;
+    
+}
+#menu ul li a:hover
+{
+    background-color: grey;
+    color: white;
+}
+#menu ul ul a
+{
+    position: relative;
+    bottom: 20px;
+    left: 100%;
+    display: none;
+}
+#menu ul li:hover > ul a
+{
+    display: block;
+
+}
+
+
+article
+{
+    border-radius: 20px;
+    width: 98%;
+    min-width: 100px;
+    height: auto;
+    float: left;
+    margin: 0 30px 30px 30px;
+    background-color: #D8D2C2;
+    padding-bottom: 1%;
+    padding: 12; 
+}
+footer
+{
+    float: left;
+    width: 100%;
+    height: 10%;
+    margin: 10px 0 10px 0;
+    background-color: white;
+    border-radius: 20px;
+}

@@ -29,9 +29,26 @@
     </nav>
     <!--Takács Imre-->
     <article>
-        <div class="car-movement">
-            <div class="car">🚕</div>
-          </div>
+        <form action="" name="rendelés">
+            <fieldset>
+                <legend>Megrendelő adatai</legend>
+                <p>
+                    <label for="">Név: <input type="text" name="nev"></label>
+                    <small>Vezetéknév keresztnév</small>
+                </p>
+                <p>
+                    <label for="">Tel.: <input type="tel" name="telefon" size="17"></label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Az autó adatai</legend>
+                <p><label for="">Évjárat: <input type="text" name="Évjárat" size="17"></label></p>
+                <p><label for="">Gyártó: <input type="text" name="Gyártó" size="17"></label></p>
+                <p><label for="">Modell: <input type="text" name="Modell" size="17"></label></p>
+            </fieldset>
+            <input type="reset" name="visszaallitas">
+            <input type="submit" name="kuldes">
+        </form>
     </article>
 
     <footer>
