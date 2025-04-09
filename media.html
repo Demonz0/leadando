@@ -7,9 +7,23 @@
     <meta name="author" content="Takács Imre">
     <meta name="description" content="HTML5-CSS3 Weboldal projekt">
     <meta name="keywords" content="HTML5, CSS3, CSS animáció, Javascript, Webform, képgaléria">
-    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/gallery.css">
     <title>Sportautók</title>
-    
+    <style>
+        .media {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+
+        iframe {
+            width: 600px;
+            height: 400px;
+            margin-top: 50px;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,12 +42,16 @@
         </div>
     </nav>
     <!--Takács Imre-->
-    <article>
-        <div class="car-movement">
-            <div class="car">🚕</div>
-          </div>
-    </article>
-
+    <div id="container">
+        <section>
+            <h2>Videók:</h2>
+            <article> 
+                <div class="media">
+                    <iframe src="https://www.youtube.com/watch?v=uRx8HqWBSFM" frameborder="0"></iframe>
+                </div>
+            </article>
+        </section>
+    </div> 
     <footer>
         <h2>Copyright 2025 Takács Imre</h2>
 
